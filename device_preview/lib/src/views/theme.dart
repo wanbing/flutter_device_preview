@@ -30,6 +30,8 @@ extension ThemeToolbarExtension on DevicePreviewToolBarThemeData {
           indicatorColor: accentColor,
           toggleableActiveColor: accentColor,
           highlightColor: accentColor.withOpacity(0.1),
+          canvasColor: const Color(0xff15181B),
+          scaffoldBackgroundColor: const Color(0xff15181B),
           sliderTheme: base.sliderTheme.copyWith(
             thumbColor: accentColor,
             activeTrackColor: accentColor.withOpacity(0.7),

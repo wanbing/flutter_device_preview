@@ -83,8 +83,9 @@ class _BottomToolbar extends StatelessWidget {
     );
     return Material(
       child: ListTile(
-        title: const Text('Device Preview'),
+        title: const Text('Device Setting'),
         onTap: isEnabled ? showPanel : null,
+        horizontalTitleGap: 0,
         leading: const Icon(Icons.tune),
         trailing: Switch(
           value: isEnabled,
